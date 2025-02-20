@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title="Diabetes Prediction", layout="wide", page_icon="🧑‍⚕")
 
 # Load the pre-trained model
-diabetes_model_path = r"E:\diseaseprediction\diabetes_model.sav"
+diabetes_model_path = "diabetes_model.sav"
 diabetes_model = pickle.load(open(diabetes_model_path, 'rb'))
 
 # Title of the app
